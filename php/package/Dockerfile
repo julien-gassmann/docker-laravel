@@ -20,5 +20,3 @@ COPY php/package/memory.ini /usr/local/etc/php/conf.d/
 
 # Install Composer (from official image)
 COPY --from=composer /usr/bin/composer /usr/bin/composer
-
-WORKDIR /work
